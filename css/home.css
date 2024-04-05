@@ -1,0 +1,18 @@
+section {
+  border: 1px solid black;
+  display: flex;
+  /* flex-direction: row;   +    flex-wrap: wrap;    =   */
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+
+section > div {
+  border: 1px solid black;
+  width: 25%;
+  padding: 10px;
+}
+
+p {
+
+  max-width: 50ch;
+}
