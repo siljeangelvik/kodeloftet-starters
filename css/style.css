@@ -1,0 +1,30 @@
+html, body {
+  font-family: sans-serif;
+}
+
+ul.menu, ul.menu > li {
+  list-style: none;
+  display: flex;
+}
+
+ul.menu {
+  gap: 15px;
+}
+
+a {
+  color: darkolivegreen;
+  font-weight: bolder;
+  text-underline: darkolivegreen;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  width: 100vw;
+}
+
+footer > p {
+  text-align: center;
+}
