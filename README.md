@@ -1,15 +1,15 @@
 # Kodeloftet / kodeloftet-starters
 
-**Kodeloftet:** Gruppe 8
-**Author:** [Silje Angelvik](https://github.com/siljeangelvik)
-**Host:** [Netlify](https://kodeloftet-starters.netlify.app/)
+**Kodeloftet:** Gruppe 8 <br>
+**Author:** [Silje Angelvik](https://github.com/siljeangelvik) <br>
+**Host:** [Netlify](https://kodeloftet-starters.netlify.app/) <br>
 **Repository:** [GitHub](https://github.com/siljeangelvik/kodeloftet-1)
 
 ## Description
 
 Kodeloftet is a 3-month course in web-development for beginners. Learning HTML, CSS and JavaScript.
 
-**Start Date:** 03 April 2024
+**Start Date:** 03 April 2024 <br>
 **End Date:** ?? June 2024
 
 ## Resources
