@@ -10,7 +10,6 @@ div.flexbox-item {
 }
 
 /*  DAY 3 */
-
 div.flexbox-col {
   display: flex;
   flex-direction: column;
