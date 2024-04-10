@@ -15,3 +15,30 @@ ul {
 a {
   color: white;
 }
+
+div.css-wrapper > div > p  {
+  background-color: white;
+  color: coral;
+  padding: 5px;
+}
+
+div.css-wrapper > div * {
+  background-color: cadetblue;
+  color: white;
+}
+
+div.css-wrapper > div > p {
+}
+
+div.css-wrapper > div > p > samp {
+  background-color: #888888;
+  padding: 1px 3px;
+  border-radius: 4px;
+}
+
+div.css-wrapper > div > p > a,
+div.css-wrapper > div > p > a > em {
+  background-color: white;
+  color: darkolivegreen;
+  padding-right: 2px;
+}
