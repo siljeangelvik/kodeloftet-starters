@@ -2,3 +2,20 @@ div.flexbox-row * a {
   font-weight: normal;
   text-underline-offset: 2px;
 }
+
+div.terminal strong {
+  color: #444;
+}
+
+p {
+  line-height: 1.3em;
+  max-width: 70ch;
+}
+
+samp.homebrew-warning {
+  background-color: #FFE135;
+}
+
+footer {
+  position: relative;
+}

@@ -40,7 +40,6 @@
 <main>
   <section>
     <h2>Information</h2>
-
     <div class="flexbox-row">
       <div>
         <h3>React</h3>
@@ -48,7 +47,6 @@
 
         </div>
       </div>
-
       <div>
         <h3>React Native</h3>
         <div class="flexbox-col">
@@ -56,7 +54,90 @@
         </div>
       </div>
     </div>
-
+    <div class="flexbox-row">
+      <div>
+        <h3>Terminal</h3>
+        <div class="flexbox-col terminal">
+          <h5>* H O M E B R E W *</h5>
+          <p><strong>Check if Homebrew is installed:</strong> <samp>command -v brew</samp></p>
+          <p><strong>Check if Homebrew is installed the path <em>(<code>/usr/local/bin/brew</code>)</em>:</strong><samp>which
+            brew</samp></p>
+          <p><strong>Display the current state of Homebrew’s analytics:</strong> <samp>brew analytics [state]</samp></p>
+          <p><strong>Check Homebrew version</strong> <samp>brew --version</samp></p>
+          <p><strong>Upgrade everything with:</strong> <samp>brew upgrade</samp></p>
+          <p><strong>Or upgrade a specific formula with:</strong> <samp>brew upgrade [formula]</samp></p>
+          <p><strong>Check all the packages installed with Homebrew:</strong> <samp>brew list</samp></p>
+          <p><strong>List which of your installed packages (kegs) are outdated with:</strong> <samp>brew outdated</samp>
+          </p>
+          <p><strong>Update all package definitions (formulae) and Homebrew itself:</strong> <samp>brew update</samp>
+          </p>
+          <p><strong>Update all the outdated formulae:</strong> <samp>brew upgrade</samp></p>
+          <p><strong>Uninstall package:</strong> <samp>brew uninstall < package_name ></samp></p>
+          <!--          <p><strong></strong> <samp></samp></p>-->
+          <h5>* N P M *</h5>
+          <p><strong>List all the globally installed npm packages</strong> <samp>npm list -g --depth=0</samp></p>
+          <p><strong>Uninstall package:</strong> <samp>npm uninstall -g < package_name ></samp></p>
+          <hr>
+          <div>
+            <h3>Terminal Homebrew Warnings / Errors</h3>
+            <div>
+              <p><samp class="homebrew-warning">WARNING:</samp> Homebrew's "sbin" was not found in your PATH but you
+                have installed
+                formulae that put executables in <code>/usr/local/sbin</code>.</p>
+              <p>Consider setting your PATH for example like so:</p>
+              <p><samp>echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.zshrc</samp></p>
+            </div>
+            <div>
+              <strong>REASON</strong>
+              <p>Apple macOS has moved from Bash shell to Zsh (Z Shell).</p>
+              <p><strong>SOLUTION:</strong></p>
+              <p>Run the command below in your terminal:</p>
+              <code>echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.zshrc</code>
+              <p>Now quit the terminal by pressing <samp>command+q</samp>, re-open the terminal and <samp>run brew
+                doctor</samp></p>
+            </div>
+            <hr>
+            <div>
+              <p><samp class="homebrew-warning">WARNING:</samp> Some installed formulae are deprecated or disabled.</p>
+              <p>You should find replacements for the following formulae:</p>
+              <p><code>node@16</code></p>
+              <p><code>openssl@1.1</code></p>
+              <p><code>php@7.4</code></p>
+            </div>
+            <hr>
+          </div>
+          <h3>Other</h3>
+          <p>Having both <samp>node</samp> and <samp>node@16</samp> installed could be reasonable if you're working on
+            projects that require compatibility with different Node.js versions. For example:</p>
+          <em>- Project Compatibility</em>
+          <em>- Testing and Development</em>
+          <p><strong>PACKAGES</strong></p>
+          <p><strong>rtmpdump: </strong>This package is useful for downloading RTMP streams. You might need it if you
+            frequently download or work with content from RTMP servers.</p>
+          <p><strong>slides: </strong>This package is used for creating and displaying presentation slides. It could be
+            handy for creating slide decks for presentations or lectures.</p>
+          <p><strong>tidy-html15: </strong>Tidy is a tool to clean up and pretty-print HTML files. You might use it to
+            ensure your HTML files adhere to standards and are well-formatted.</p>
+          <p><strong>m4: </strong>M4 is a macro processor typically used in software development or system
+            administration tasks for text processing. It's often used in conjunction with other tools for template
+            processing or code generation.</p>
+          <p><strong>openssl@3</strong> and <strong>openssl@1.1: </strong>These are different versions of OpenSSL, a
+            cryptographic library commonly used in secure communication protocols such as HTTPS. You might have both
+            versions installed for compatibility reasons, or because certain applications require specific versions of
+            OpenSSL.</p>
+<!--          <p><strong></strong></p>-->
+        </div>
+        <hr>
+      </div>
+    </div>
+    <div>
+      <h3>Resources</h3>
+      <p><strong>Brew -</strong> <a href="https://docs.brew.sh/">Homebrew Documentation</a></p>
+      <p><strong>StackOverflow -</strong> <a
+        href="https://stackoverflow.com/questions/21577968/how-to-tell-if-homebrew-is-installed-on-mac-os-x">How to tell
+        if Homebrew is installed on Mac OS X</a></p>
+      <p><strong>Fig -</strong><a href="https://fig.io/manual/brew/doctor">brew doctor</a></p>
+    </div>
   </section>
 </main>
 <footer>

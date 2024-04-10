@@ -27,9 +27,6 @@ div.css-wrapper > div * {
   color: white;
 }
 
-div.css-wrapper > div > p {
-}
-
 div.css-wrapper > div > p > samp {
   background-color: #888888;
   padding: 1px 3px;
