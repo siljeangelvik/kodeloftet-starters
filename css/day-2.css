@@ -8,3 +8,10 @@ div.flexbox-item {
   border: 1px solid black;
   padding: 20px;
 }
+
+/*  DAY 3 */
+
+div.flexbox-col {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,4 @@
+div.flexbox-row * a {
+  font-weight: normal;
+  text-underline-offset: 2px;
+}
