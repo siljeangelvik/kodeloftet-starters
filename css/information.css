@@ -1,6 +1,29 @@
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  width: 100%;
+  border: 1px solid green;
+}
+
+section:last-child {
+  padding-bottom: 50px;
+}
+
+div.flexbox-row {
+  gap: 2em;
+  border: 1px solid red;
+}
+
+div.flexbox-col {
+  /**/border: 1px solid red;
+
+}
+
 div.flexbox-row * a {
   font-weight: normal;
   text-underline-offset: 2px;
+  line-height: 1.5em;
 }
 
 div.terminal strong {

@@ -13,6 +13,7 @@
 
 Kodeloftet is a 3-month course in web-development for beginners. Learning HTML, CSS and JavaScript.
 
+**Location:** [Fontenehuset Bergen](https://www.fontenehusetbergen.no/) <br>
 **Start Date:** 03 April 2024 <br>
 **End Date:** ?? June 2024
 

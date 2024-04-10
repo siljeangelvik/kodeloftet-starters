@@ -24,10 +24,18 @@ footer {
   left: 0;
   z-index: 10;
   width: 100vw;
+  background-color: darkolivegreen;
+  color: white;
+}
+
+footer > p,
+footer > p > a {
+  text-align: center;
+  color: khaki;
 }
 
 footer > p {
-  text-align: center;
+  color: white;
 }
 
 samp {
