@@ -1,8 +1,8 @@
 # Kodeloftet / kodeloftet-starters
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/29d058c7-d1c0-447b-8f0e-7f5de0e61c28/deploy-status)](https://app.netlify.com/sites/sav-typescript-todo-list/deploys)  <br>
-![Hello](https://img.shields.io/static/v1?label=project&message=todo-list&color=orange) ![GitHub last commit](https://img.shields.io/github/last-commit/siljeangelvik/typescript-todo-list?&color=ff69b4) <br>
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/siljeangelvik/typescript-todo-list?&color=blue) ![JetBrains Plugins](https://img.shields.io/jetbrains/plugin/r/rating/R4Intellij?&color=blueviolet) <br>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1a56a6a0-c056-458e-bfca-d1204cb0ee95/deploy-status)](https://app.netlify.com/sites/kodeloftet-starters/deploys) <br>
+![Hello](https://img.shields.io/static/v1?label=project&message=todo-list&color=orange) ![GitHub last commit](https://img.shields.io/github/last-commit/siljeangelvik/kodeloftet-starters?&color=ff69b4) <br>
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/siljeangelvik/kodeloftet-starters?&color=blue) ![JetBrains Plugins](https://img.shields.io/jetbrains/plugin/r/rating/R4Intellij?&color=blueviolet) <br>
 
 **Kodeloftet:** Gruppe 8 <br>
 **Author:** [Silje Angelvik](https://github.com/siljeangelvik) <br>

@@ -8,6 +8,7 @@ ul.menu, ul.menu > li {
 }
 
 ul.menu {
+  padding: 5px;
   gap: 15px;
 }
 
