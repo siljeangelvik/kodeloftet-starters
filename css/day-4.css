@@ -1,0 +1,4 @@
+div.flexbox-row {
+  display: flex;
+  flex-direction: column;
+}
