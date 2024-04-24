@@ -1,14 +1,53 @@
-h3#greetingOutput {
-  padding: 20px;
-  color: darkolivegreen;
-  border: 1px solid black;
-  width: fit-content;
+:root[data-theme="light"] {
+  --text: #040316;
+  --background: #fbfbfe;
+  --primary: darkolivegreen;
+  --secondary: #dddbff;
+  --accent: darkolivegreen;
 }
 
-strong {
-  color: darkolivegreen;
+:root[data-theme="dark"] {
+  --text: #eae9fc;
+  --background: #010104;
+  --primary: #3a31d8;
+  --secondary: #020024;
+  --accent: #0600c2;
+}
+
+body {
+  color: var(--text);
+  background-color: var(--background);
+}
+
+h1, h2, h3, h4, h5, h6, p, strong, em {
+  color: var(--text);
+}
+
+h3#greetingOutput,
+a,
+p > strong {
+  color: var(--primary);
+}
+
+h1, h2, h3, h4, h5, h6, p, strong, em {
+  color: var(--text);
+}
+
+h3#greetingOutput {
+  padding: 20px;
+  border: 1px solid var(--text);
+  width: fit-content;
 }
 
 p > em {
   font-weight: bold;
+}
+
+button {
+  background-color: transparent;
+  padding: 6px 20px;
+  color: var(--text);
+  border: 1px solid var(--text);
+  font-weight: bold;
+  border-radius: 10px;
 }

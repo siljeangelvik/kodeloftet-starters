@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"
@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="../css/day-7.css">
   <script src="../js/day-7.js" defer></script>
 </head>
-<body>
+<body class="dark-theme">
 <header>
   <h1>Kodeloftet: Day 7</h1>
   <ul class="menu">
@@ -47,13 +47,15 @@
   <section>
     <div>
       <h2>JavaScript Introduction</h2>
-      <h3 id="greetingOutput"></h3>
-
+      <h3 id="greetingOutput" class="dark-theme"></h3>
       <div>
         <p><em>The greeting above will change depending on time of day.</em></p>
         <p>12:00AM - 12:00PM: Good <strong>Morning,</strong> Kodeloftet</p>
         <p>12:00PM - 06:00PM: Good <strong>Afternoon,</strong> Kodeloftet</p>
         <p>06:00PM - 12:00AM: Good <strong>Evening,</strong> Kodeloftet</p>
+      </div>
+      <div>
+        <button id="theme-changer">Change Theme</button>
       </div>
     </div>
   </section>

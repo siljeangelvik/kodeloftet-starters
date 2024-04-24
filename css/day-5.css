@@ -1,5 +1,28 @@
-.container {
+div.container-0,
+div.container-1,
+div.container-2,
+div.container-3,
+div.container-4,
+div.container-5 {
   display: grid;
   grid-template-rows: 20% 20% 20% 20% 20%;
   grid-template-columns: 20% 20% 20% 20% 20%;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 20px;
+  min-height: 200px;
 }
+
+div.item {
+  grid-column: span 1/5;
+
+  border: 1px solid black;
+}
+
+
+
+div.item-1 {
+  grid-row: span 6/6;
+}
+
+
