@@ -37,7 +37,6 @@ Click on the badges below to go to my profiles or contact me via email.
     <img src="https://img.shields.io/badge/Gmail-EA4335.svg?style=for-the-badge&logo=Gmail&logoColor=white" alt="Gmail Badge" />
 </a>
 
-
 ## Resources
 
 - [Excalidraw](https://excalidraw.com/)
@@ -45,3 +44,8 @@ Click on the badges below to go to my profiles or contact me via email.
 - [SheCodes](https://www.shecodes.io/athena/1379-how-to-add-a-footer-with-html-and-css)
 - [Codepen: Day 1](https://codepen.io/siljeangelvik/pen/RwOxgKX?editors=1100)
 - [CodePen: Day 2](https://codepen.io/siljeangelvik/pen/RwOQLYJ)
+
+## Pages
+1. Home
+2. Contact, About, Projects
+3. Project#1, Project#2, Project#3, Project#4 (etc..)

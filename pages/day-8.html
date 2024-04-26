@@ -10,8 +10,8 @@
   <link rel="apple-touch-icon" href="../media/icon.png">
   <title>Kodeloftet: Day 8</title>
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/day-7.css">
-  <script src="../js/day-7.js" defer></script>
+  <link rel="stylesheet" href="../css/day-8.css">
+  <script src="../js/day-8.js" defer></script>
 </head>
 <body class="dark-theme">
 <header>
@@ -50,8 +50,58 @@
   <section>
     <div>
       <h2>Day 8</h2>
-
+      <img src="../media/images/day-8_JS-excalidraw.png" alt="JS Visual">
+      <h3>Data Types</h3>
+      <h4>Primitive</h4>
+      <p>In JavaScript, a <strong>primitive</strong> (primitive value, primitive data type) is data that is not
+        an<strong>object</strong> and has no <strong>method</strong> or <strong>properties.</strong> There are 7
+        primitive data types.</p>
+      <ul>
+        <li><strong>String -</strong> "double quote" & 'single quote' are string literals , `backticks` for template literals</li>
+        <li><strong>Number -</strong> a numeric data type in the <a href="https://en.wikipedia.org/wiki/Double_precision_floating-point_format">double-precision 64-bit floating point format (IEEE 754)</a></li>
+        <li><strong>BigInt -</strong> a numeric data type that can represent integers in the <a href="https://en.wikipedia.org/wiki/Arbitrary-precision_arithmetic">arbitrary precision format</a></li>
+        <li><strong>Boolean -</strong>True (1) False (0)</li>
+        <li><strong>Undefined -</strong> a primitive value automatically assigned to variables that have just been declared, or to formal arguments for which there are no actual arguments.</li>
+        <li><strong>Symbol -</strong></li>
+        <li><strong>Null -</strong> value represents a reference that points, generally intentionally, to a nonexistent or invalid object or address.</li>
+      </ul>
+      <ul>
+        <li><strong>Array -</strong></li>
+        <li><strong>Object -</strong> {name: "Jane Doe", age: 25, student: true, studies: ["language", "mathematics", "chemistry"] }</li>
+      </ul>
     </div>
+    <img src="../media/images/day-8_utf8.png" alt="Image of Bart Simpson writing on chalkboard">
+  </section>
+  <section>
+    <h3>Boolean</h3>
+    <div>
+      <p>is a data type that has one of two possible values, denoted true (1) and false (0).</p>
+      <p><strong>Question:</strong> Does 10 = 5?</p>
+      <p><strong>Answer:</strong> <span id="booleanStatement"></span></p>
+    </div>
+    <h3>Conditional</h3>
+    <div>
+      <p>conditional operator is also known as a ternary operator</p>
+      <p><strong>Statement:</strong> Person is <strong>68</strong> years old.</p>
+      <p><strong>Feedback:</strong> <span id="ifStatement"></span></p>
+    </div>
+    <h3>Counter</h3>
+    <div class="counterStyling">
+      <strong id="counter">0</strong>
+      <div>
+        <button id="decrease">Decrease</button>
+        <button id="reset">Reset</button>
+        <button id="increase">Increase</button>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>Resources</h2>
+    <ul>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/Number">MDN Number</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol">MDN
+        Symbol</a></li>
+    </ul>
   </section>
 </main>
 <footer>
