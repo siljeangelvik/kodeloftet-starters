@@ -44,6 +44,11 @@ Click on the badges below to go to my profiles or contact me via email.
 - [SheCodes](https://www.shecodes.io/athena/1379-how-to-add-a-footer-with-html-and-css)
 - [Codepen: Day 1](https://codepen.io/siljeangelvik/pen/RwOxgKX?editors=1100)
 - [CodePen: Day 2](https://codepen.io/siljeangelvik/pen/RwOQLYJ)
+- [RealTimeColors](https://www.realtimecolors.com/?colors=eae9fc-010104-3a31d8-020024-0600c2&fonts=Inter-Inter)
+- [GridGarden](https://cssgridgarden.com/)
+- [FlexboxFroggy](https://flexboxfroggy.com/?authuser=1)
+- [GitHub: LarsGJobloop](https://github.com/LarsGJobloop/kodeloftet-gruppe-8-layout?authuser=1)
+- [ColorZilla](https://www.colorzilla.com/firefox/welcome/updated/?firefox/125.0/3.3/3.4resigned1)
 
 ## Pages
 1. Home
